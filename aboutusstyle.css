@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("servicesback.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  nav {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  a {
+    color: #066392;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    
+  }
+  
+  a:hover {
+    background-color: #50c2fb;
+  } 
+  .textbox {
+    width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #fbf6f6;
+    border-radius: 10px;
+    top: 300px;
+  position: absolute;
+  margin-left: 50%;
+  
+  }
+  
+  h2 {
+    font-size: 50px;
+    color: 066392;
+    font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  
+  }
+  
+  p {
+    font-size: 16px;
+    color: 066392;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+  }
+  .animated-image {
+    animation: spin 2s linear infinite;
+    margin-top: 230px;
+    position: relative;
+    margin-left: 10%;
+  
+  }
+  
+  @keyframes sspin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .textbox {
+    animation: slideIn 1s ease-in-out;
+  }
+  
